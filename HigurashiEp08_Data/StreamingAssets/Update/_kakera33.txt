@@ -147,7 +147,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そこには、２人の少女が戯れていた。",
-		   NULL, "Duas garotas estavam bricando lá.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Duas garotas estavam brincando lá.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode) == 0) { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -506,7 +506,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　さっきの少女たちは、この野原には場違いな立て看板のところでふざけあっていた。",
-		   NULL, "Aquelas meninas estavam bricando perto de uma placa que parecia deslocada naquele campo.", Line_Normal);
+		   NULL, "Aquelas meninas estavam brincando perto de uma placa que parecia deslocada naquele campo.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

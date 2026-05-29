@@ -44,7 +44,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　村の中で北条家が孤立していて、大人たちが陰口を言っていることをそれとなく知っていても、学校の中にそれが持ち込まれることはなかった。",
-		   NULL, "Mesmo que os moradores tenham falado mal da família Houjou pelas costas e tentado os isolar, isso nunca trazido à nossa escola.", Line_Normal);
+		   NULL, "Mesmo que os moradores tenham falado mal da família Houjou pelas costas e tentado os isolar, isso nunca foi trazido à nossa escola.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -29,7 +29,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あんなひどい赤をした錠剤なんて考えられない。",
-		   NULL, "Eu nem cosigo imaginar um comprimido oval com uma cor tão forte.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Eu nem consigo imaginar um comprimido oval com uma cor tão forte.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -202,7 +202,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　両肘でしっかりと頭を抱え、頭が痛み出すくらいにぐっと押さえつけ、…薬を飲み続けなければならないという思い込みと、母の声を追い出していく…。",
-		   NULL, "Pressionei minha cabeça com os cotovelos até que doesse... em uma tentativa de me livrar desses pensamentos... de me livrar da voz da mihna mãe...", Line_Normal);
+		   NULL, "Pressionei minha cabeça com os cotovelos até que doesse... em uma tentativa de me livrar desses pensamentos... de me livrar da voz da minha mãe...", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 400 );
@@ -301,7 +301,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大好きなおじさんだった。",
-		   NULL, "Eu amava dele.", Line_Normal);
+		   NULL, "Eu amava ele.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }

@@ -88,7 +88,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　婆っちゃが、ずいぶんと立派なスイカをいくつも送ってもらったので、お裾分けをしようということになったのだ。",
-		   NULL, "A Vovó rebeceu várias melancias muito boas, então ela decidiu compartilhar com os outros.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "A Vovó recebeu várias melancias muito boas, então ela decidiu compartilhar com os outros.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -177,7 +177,7 @@ void main()
 		   NULL, "\"Mion, bem que você podia ajudar a Rika-chama a levar a melancia pra casa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 17, "ps3/s20/17/vtk2_oryou2044", 128, TRUE);
 	OutputLine(NULL, "スイカ片手んなぁ、自転車なん漕がれんて。」",
-		   NULL, " Ela não vai conseguir andar na bicileta com ela na mão.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela não vai conseguir andar na bicicleta com ela na mão.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();

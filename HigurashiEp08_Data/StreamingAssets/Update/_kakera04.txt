@@ -157,7 +157,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Pai da Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_rikaf1007", 128, TRUE);
 	OutputLine(NULL, "「梨花は、自分の友達もその病気に掛かっているということを気にしていて、友達のためにも協力したいと常に言っていました。",
-		   NULL, "\"Rika está muito procupada com a amiga com a síndrome. Ela disse que queria ajudar por causa dela.", Line_WaitForInput);
+		   NULL, "\"Rika está muito preocupada com a amiga com a síndrome. Ela disse que queria ajudar por causa dela.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk1_rikaf1008", 128, TRUE);
 	OutputLine(NULL, "……どうか先生方、梨花の心意気を汲んでやってください。」",
 		   NULL, " ...Doutor, por favor, leve os sentimentos da Rika em consideração.\"", Line_Normal);
@@ -294,7 +294,7 @@ void main()
 		   NULL, "Além disso, a Rika-san também pode acabar sofrendo desconforto físico e emocional.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 10, "ps3/s20/10/vtk1_irie1166", 128, TRUE);
 	OutputLine(NULL, "……いくら重要な検査と言えども、ご家族の同意なしには行なえません。」",
-		   NULL, " ...Mesmo que seja importante, não podemos fazer o experimento sem o consetimento da família.\"", Line_Normal);
+		   NULL, " ...Mesmo que seja importante, não podemos fazer o experimento sem o consentimento da família.\"", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>梨花の父</color>", NULL, "<color=#f5e6d3>Pai da Rika</color>", NULL, Line_ContinueAfterTyping); }
@@ -690,7 +690,7 @@ void main()
 		   NULL, "\"O senso comum muda com o tempo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/vtk1_takano1140", 128, TRUE);
 	OutputLine(NULL, "当時は医者が治療をいちいち説明することなどなかったし、事前承諾なんて大したものではなかった。",
-		   NULL, " Naquela época, os médicos não precisavam explicar nada, nem precisavam de consetimento prévio.", Line_WaitForInput);
+		   NULL, " Naquela época, os médicos não precisavam explicar nada, nem precisavam de consentimento prévio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/vtk1_takano1141", 128, TRUE);
 	OutputLine(NULL, "だから、当時のことは気にしなくていいんじゃないですかしら？",
 		   NULL, " Então você não precisa se preocupar com o que aconteceu naquela época, certo? ", GetGlobalFlag(GLinemodeSp));

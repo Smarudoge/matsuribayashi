@@ -45,7 +45,7 @@ void main()
 		   NULL, "\"Ora, ora!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2004", 128, TRUE);
 	OutputLine(NULL, "　こんな田舎の村にこんな若い子が引っ越してきちゃったのかい？",
-		   NULL, " Uma menina tão jovem se mudou para um vilarejo rural como essse?", Line_WaitForInput);
+		   NULL, " Uma menina tão jovem se mudou para um vilarejo rural como esse?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/vtk2_shuhua2005", 128, TRUE);
 	OutputLine(NULL, "　そうかいそうかい、よく来たねぇ！",
 		   NULL, " Entendi, entendi, seja bem-vinda!!", Line_WaitForInput);

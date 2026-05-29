@@ -127,7 +127,7 @@ void main()
 	OutputLine(NULL, "　やさしくないお母さんは、いつもイライラ。",
 		   NULL, "Quando minha mãe não era gentil, ela ficava irritada o tempo todo.", Line_WaitForInput);
 	OutputLine(NULL, "私たち兄妹に辛く辛く当たります。",
-		   NULL, " Ela tratava o meu irmão muito mal.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ela tratava a mim e ao meu irmão muito mal.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
